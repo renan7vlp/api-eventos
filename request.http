@@ -1,0 +1,15 @@
+###
+GET http://localhost:8000/api/events
+
+###
+GET http://localhost:8000/api/rsvp
+
+###
+POST http://localhost:8000/api/rsvp
+Content-Type: application/json
+
+{
+  "event_id": 1,
+  "name": "João",
+  "email": "joao@email.com"
+}
