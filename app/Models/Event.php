@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Event extends Model
 {
-    protected $fillable = ['name', 'date'];
+    protected $fillable = ['title', 'date'];
 
     // Apenas eventos futuros
     public function scopeFuture($query)

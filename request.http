@@ -13,3 +13,12 @@ Content-Type: application/json
   "name": "João",
   "email": "joao@email.com"
 }
+
+###
+POST http://localhost:8000/api/events
+Content-Type: application/json
+
+{
+  "title": "Evento 1",
+  "date": "2023-10-01",
+}
